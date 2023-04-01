@@ -1,0 +1,8 @@
+with open('./corpus.txt"=', mode = 'r', encoding = 'utf-8') as f:
+    contents = f.read()
+    print(contents)
+
+with open ('./newFILE.txt', , mode = 'w', encoding = 'utf-8') as g:
+    g.write("Hello")
+
+mode 指開啟模式，r為讀取/w為寫入
